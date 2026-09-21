@@ -1,4 +1,1 @@
-# Git Workshop
-
-Сайт предназначен для упражнений по Git, состоящих из восьми ступеней.
-
+[http://git-workshop.zhukovsd.it/](http://git-workshop.zhukovsd.it/)
