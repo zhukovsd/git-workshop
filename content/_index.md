@@ -2,34 +2,40 @@
 title = 'Git Workshop'
 +++
 
-# Практикум по Git
+# Workshop по использованию Git в командной работе
 
-Этот сайт предназначен для практической работы с Git. Практикум состоит из восьми последовательных упражнений. Они помогут освоить основные операции Git, научиться работать с историей проекта и снять страх перед работой в команде.
+## Для кого создан данный workshop
 
-## Обо мне
+При переходе от соло разработке к командной, одной из самых частых трудностей является работа с Git.
 
-Меня зовут Сергей Жуков, я разработчик, автор [Java](https://zhukovsd.github.io/java-backend-learning-course/) / [Python](https://zhukovsd.github.io/python-backend-learning-course/) / [Golang](https://zhukovsd.github.io/golang-backend-learning-course/) роадмапов и {{< html >}}<strong><u>лидер</u></strong>{{< /html >}} сообщества начинающих и развивающихся разработчиков.
+В соло разработке достаточно уметь делать коммиты, push и pull. В командной же работе намного больше всего - Pull Requests, работа с ветками и их историей, решение конфликтов.
 
-## Как проходить практикум
+Данный воркшоп включает в себя коллекцию из 8 кейсов, решая которые вы подготовитесь к самым часто встречающимся задачам, связанным с Git.
 
-1. Выполняйте упражнения по порядку.
-2. Перед началом упражнения внимательно прочитайте задание.
-3. Проверяйте состояние репозитория после каждого шага.
+## Кейсы
 
-## Упражнения
+Каждый кейс оформлен в виде GitHub репозитория. Описание и инструкции по решению описаны в README.md каждого репозитория.
 
-1. [Упражнение №1](./exercise-1/)
-2. [Упражнение №2](./exercise-2/)
-3. [Упражнение №3](./exercise-3/)
-4. [Упражнение №4](./exercise-4/)
-5. [Упражнение №5](./exercise-5/)
-6. [Упражнение №6](./exercise-6/)
-7. [Упражнение №7](./exercise-7/)
-8. [Упражнение №8](./exercise-8/)
+Решать можно в произвольном порядке.
+
+Pull Request'ы и пайплайны:
+- Создание пул реквеста и прогон CI/CD пайплайна - [https://github.com/zhukovsd/git-workshop-creating-pull-request](https://github.com/zhukovsd/git-workshop-creating-pull-request)
+
+Конфликты:
+- Решение Git конфликтов для приёма pull request и прохождения тестов, пайплайна - [https://github.com/zhukovsd/git-workshop-resolving-conflicts](https://github.com/zhukovsd/git-workshop-resolving-conflicts)
+- Cherry-pick с решением конфликтов [https://github.com/zhukovsd/git-workshop-cherry-pick](https://github.com/zhukovsd/git-workshop-cherry-pick)
+
+Изменение истории ветки:
+- Слияние/удаление по ошибке сделанных коммитов [https://github.com/zhukovsd/git-workshop-squashing-commits](https://github.com/zhukovsd/git-workshop-squashing-commits)
+- Изменение сообщений и автора коммитов [https://github.com/zhukovsd/git-workshop-changing-commit-messages-and-author](https://github.com/zhukovsd/git-workshop-changing-commit-messages-and-author)
+- Удаление секретного ключа из истории коммитов - [https://github.com/zhukovsd/git-workshop-removing-credentials-from-history](https://github.com/zhukovsd/git-workshop-removing-credentials-from-history)
+- Удаление секретного файла из истории коммитов [https://github.com/zhukovsd/git-workshop-removing-file-from-history](https://github.com/zhukovsd/git-workshop-removing-file-from-history)
+- Разбиение большого коммита на несколько маленьких [https://github.com/zhukovsd/git-workshop-splitting-commit](https://github.com/zhukovsd/git-workshop-splitting-commit)
 
 ---
 
-## Сообщество
+## Поддержка и обратная связь
 
-- [Telegram-канал](https://t.me/zhukovsd_it_mentor) — материалы, новости и общение с сообществом.
-- [YouTube-канал](https://www.youtube.com/@zhukovsd_it_mentor) — видео о разработке и обучении.
+Любую обратную связь, предложения, идеи новых кейсов можно прислать мне в личку ([@zhukovsd](https://t.me/zhukovsd)) или в чат сообщества ([@zhukovsd_it_chat](https://t.me/zhukovsd_it_chat)).
+
+Обо мне, сообществе, и других наших материалах, можно почитать тут - [https://zhukovsd.it/](https://zhukovsd.it/).
