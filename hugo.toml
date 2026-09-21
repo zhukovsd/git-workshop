@@ -1,6 +1,6 @@
-baseURL = 'https://zhukovsd.github.io/git-workshop/'
+baseURL = 'https://git-workshop.zhukovsd.it/'
 languageCode = 'ru'
-title = 'Git Workshop'
+title = 'IT Ментор | Git Workshop'
 theme = 'hugo-book'
 enableGitInfo = true
 
@@ -8,6 +8,6 @@ enableGitInfo = true
   BookTheme = 'auto'
   BookSection = '*'
   BookPortableLinks = true
-  BookRepo = 'https://github.com/zhukovsd/git-workshop'
+  BookRepo = 'https://git-workshop.zhukovsd.it'
   BookCommitPath = 'commit'
   BookEditPath = 'edit/main'
